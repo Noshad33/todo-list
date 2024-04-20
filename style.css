@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#task-container {
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.task-item input[type="text"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.task-item button {
+    margin-left: 5px;
+}
